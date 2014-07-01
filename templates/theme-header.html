@@ -7,9 +7,10 @@
 <%block name="navigation_top">
   <div id="su-header">
     <div class="su-container">
-      <a href="http://mIPEB.org">
+<!---      <a href="http://mIPEB.org">
         <img src="${static.url('themes/dix/images/brandbar-dix-logo@2x.png')}" alt="mIPEB" width="152" height="23">
       </a>
+--->
     </div>
   </div>
 </%block>
@@ -24,18 +25,22 @@
 
 ## When unauthenticated, only show the about page link
 <%block name="navigation_global_links">
+<!---
   <li class="nav-global-01">
     <a href="${marketing_link('ABOUT')}">About</a>
   </li>
+--->
 </%block>
 
 ## When authenticated, show both the about page and find courses
 <%block name="navigation_global_links_authenticated">
   <li class="nav-global-01">
+<!---
     <a href="${marketing_link('ABOUT')}">About</a>
   </li>
   <li class="nav-global-02">
     <a href="${marketing_link('COURSES')}">Find Courses</a>
   </li>
+--->
 </%block>
 
